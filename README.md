@@ -4,7 +4,7 @@ Deployed a web application for an online banking system alongside a MongoDB data
 - **Web Application:** A banking app containerized with Docker, using the image `nolita26/online-banking-app:v1.0`, accessible externally via `banking.mybankingapp.com`.
 - **MongoDB Database:** Deployed as a container with credentials managed through Kubernetes Secrets.
 - **Configuration Management:** Used ConfigMaps for non-sensitive configuration and Secrets for sensitive data like database credentials and application secrets.
-- **Networking:** Exposed the web application through a Kubernetes Service of type `LoadBalancer` and configured an Ingress resource to handle external traffic and route it to the application.
+- **Networking:** Exposed the web application through a Kubernetes Service of type LoadBalancer and configured an Ingress resource to handle external traffic and route it to the application.
 
 ##### Start Minikube and check status
     minikube start --vm-driver=hyperkit 
