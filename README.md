@@ -1,8 +1,8 @@
 # Online-Banking-WebApp-Kubernetes
 
-Deployed a web application for an online banking system alongside a MongoDB database in a Kubernetes cluster.
-- **Web Application:** A banking app containerized with Docker, using the image `nolita26/online-banking-app:v1.0`, accessible externally via `banking.mybankingapp.com`.
-- **MongoDB Database:** Deployed as a container with credentials managed through Kubernetes Secrets.
+Deployed a simple web application for an online banking system alongside a MongoDB database in a Kubernetes cluster.
+- **Web Application:** An online banking webapp containerized with Docker, using the image `nolita26/online-banking-app:v1.0`, accessible externally via `banking.mybankingapp.com`.
+- **MongoDB Database:** Deployed as a container with credentials managed through Secrets.
 - **Configuration Management:** Used ConfigMaps for non-sensitive configuration and Secrets for sensitive data like database credentials and application secrets.
 - **Networking:** Exposed the web application through a Kubernetes Service of type LoadBalancer and configured an Ingress resource to handle external traffic and route it to the application.
 
