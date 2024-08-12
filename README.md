@@ -1,6 +1,6 @@
 # Online-Banking-WebApp-Kubernetes
 
-Deployed a scalable online banking web application using React and Node.js, with a MongoDB database in a Kubernetes cluster.
+Deployed a simple online banking web application using React and Node.js, with a MongoDB database in a Kubernetes cluster.
 - **Web Application:** An online banking webapp containerized with Docker, using the image `nolita26/online-banking-app:v1.0`, accessible externally via `banking.mybankingapp.com`.
 - **MongoDB Database:** Deployed as a container with credentials managed through Secrets.
 - **Configuration Management:** Used ConfigMaps for non-sensitive configuration and Secrets for sensitive data like database credentials and application secrets.
